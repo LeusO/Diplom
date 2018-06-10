@@ -1,0 +1,6 @@
+.header {
+  background-image: url(img/header-backgr.jpg);
+  background-repeat: no-repeat;
+  border: 1px solid;
+  max-width: 1920px;
+}
