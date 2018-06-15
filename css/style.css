@@ -1,6 +1,146 @@
+html{
+ max-width: 1920px;
+ font-size: 100%;
+ font-family: 'OpenSans', sans-serif; 
+}
+
 .header {
-  background-image: url(img/header-backgr.jpg);
-  background-repeat: no-repeat;
-  border: 1px solid;
-  max-width: 1920px;
+  background-image: url("img/header-backgr.jpg");
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo{
+ width: 190px;
+ height: 55px;
+ margin-top: 30px;
+}
+
+.header h1{
+ font-family: Open Sans;
+ color: #ffffff;
+ font-size: 7vw;
+ font-weight: 700;
+ line-height: 34.489px; 
+}
+
+.left{
+ align-self: flex-start;
+ margin-bottom: -90px;
+}
+
+.right{
+ align-self: flex-end;
+}
+
+.app{
+ display: flex;
+ font-family: Open Sans;
+ color: #ffffff;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 5px; 
+ margin: 100px 0;
+}
+
+.app div{
+margin: 0 15px;
+}
+
+.apple{
+ background: #5e42b0;
+ width: 311px;
+ /*height: 77px;*/
+ border-radius: 50px;
+ display: flex;
+ padding: 10px 30px;
+}
+
+.apple-logo{
+ width: 50px;
+ height: 50px;
+}
+
+.google{
+ background: #5e42b0;
+ width: 311px;
+ /*height: 77px;*/
+ border-radius: 50px;
+ display: flex;
+ padding: 10px 30px;
+}
+
+.app-txt{
+ font-family: Open Sans;
+ color: #ffffff;
+ font-size: 14px; 
+ font-weight: 700;
+}
+
+/*.center-up{
+ display: flex;
+}*/
+
+/*.center-up-01{
+ display: flex;
+ justify-content: flex-end;
+}*/
+
+.center-up-01{
+ background-image: url("img/footballer_desktop.png");
+ background-size: contain;
+ background-repeat: no-repeat;
+}
+
+.athlets div{
+ padding: 20px 0;
+}
+
+.center-up-001 h1{
+ font-family: Open Sans;
+color: #e7e7e7;
+font-size: 80px; 
+font-weight: 700;
+}
+
+.center-up-01 h2{
+ font-family: Open Sans;
+ color: rgba(193, 193, 193, 0.4);
+ font-size: 36px;
+ font-weight: 700;
+}
+
+.center-up-001 p, .center-up-002 p{
+ font-family: Open Sans;
+ /*color: rgba(0, 0, 0, 0);*/
+ font-size: 20px; 
+ font-weight: 400;
+}
+
+.center-up-003 p{
+font-family: Open Sans;
+color: #ffffff;
+font-size: 20px; 
+font-weight: 400;
+/*line-height: 28px; 
+text-align: left;*/
+}
+
+.center-up-001, .center-up-002, .center-up-003{
+ display: flex;
+}
+
+.center-up-001 div, .center-up-002 div, .center-up-003 div{
+ width: 50%;
+}
+
+.center-up-002{
+ background-color: rgba(94, 66, 176, 0.06);
+}
+
+.center-up-003{
+ background-color: #5e42b0;
 }
