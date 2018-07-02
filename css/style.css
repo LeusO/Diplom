@@ -736,7 +736,7 @@ footer .logo{
  .wrapper-foot{
   background: url("../img/game_1280.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
  }
  .wrapper-head{
   background: url("../img/football_1920.jpg");
